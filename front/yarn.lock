@@ -1151,7 +1151,7 @@
 "@firebase/analytics-compat@0.1.8":
   version "0.1.8"
   resolved "https://registry.npmjs.org/@firebase/analytics-compat/-/analytics-compat-0.1.8.tgz"
-  integrity sha512-2XBPTFD4DPVZUJZ2tPOib7BfyHB/Ucfq3DfYMNRZFUrgctABTO/lRwjm3oqv4EsoqEOlbxRurvfFN8BQEe28LA==
+integrity sha512-2XBPTFD4DPVZUJZ2tPOib7BfyHB/Ucfq3DfYMNRZFUrgctABTO/lRwjm3oqv4EsoqEOlbxRurvfFN8BQEe28LA==
   dependencies:
     "@firebase/analytics" "0.7.7"
     "@firebase/analytics-types" "0.7.0"
@@ -9502,6 +9502,7 @@ tr46@^2.1.0:
 
 tr46@~0.0.3:
   version "0.0.3"
+<<<<<<< HEAD
   resolved "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
   integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
 
@@ -9516,7 +9517,6 @@ trim-newlines@^3.0.0:
   integrity sha512-m6s2OdQe5wgpFMC+pAJ+q9djG82O2jcHPOI6RNg1yy9rCYR+WD6Nbpl32fDpfC56nirdRy+opFa/Vk7HYhqaew==
   dependencies:
     glob "^7.1.2"
-
 tryer@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/tryer/-/tryer-1.0.1.tgz"
@@ -9830,7 +9830,11 @@ web-vitals@^2.1.0:
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
+<<<<<<< HEAD
   resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz"
+=======
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+>>>>>>> 4ada4a7202539211f7319a72c68b70b69aad2e4e
   integrity sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=
 
 webidl-conversions@^4.0.2:
@@ -9977,7 +9981,11 @@ whatwg-encoding@^1.0.5:
 
 whatwg-fetch@2.0.4:
   version "2.0.4"
+<<<<<<< HEAD
   resolved "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz"
+=======
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
+>>>>>>> 4ada4a7202539211f7319a72c68b70b69aad2e4e
   integrity sha512-dcQ1GWpOD/eEQ97k66aiEVpNnapVj90/+R+SXTPYGHpYBBypfKJEQjLrvMZ7YXbKm21gXd4NcuxUTjiv1YtLng==
 
 whatwg-fetch@^3.6.2:
@@ -9992,7 +10000,11 @@ whatwg-mimetype@^2.3.0:
 
 whatwg-url@^5.0.0:
   version "5.0.0"
+<<<<<<< HEAD
   resolved "https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz"
+=======
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+>>>>>>> 4ada4a7202539211f7319a72c68b70b69aad2e4e
   integrity sha1-lmRU6HZUYuN2RNNib2dCzotwll0=
   dependencies:
     tr46 "~0.0.3"
@@ -10248,7 +10260,11 @@ write-file-atomic@^3.0.0:
 
 ws@>=7.4.6, ws@^8.4.2:
   version "8.5.0"
+<<<<<<< HEAD
   resolved "https://registry.npmjs.org/ws/-/ws-8.5.0.tgz"
+=======
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.5.0.tgz#bfb4be96600757fe5382de12c670dab984a1ed4f"
+>>>>>>> 4ada4a7202539211f7319a72c68b70b69aad2e4e
   integrity sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==
 
 ws@^7.4.6:
