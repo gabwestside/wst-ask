@@ -7,7 +7,7 @@ export function Home() {
   useEffect(() => {}, []);
 
   return (
-    <>
+    <div className='page-auth'>
       <aside>
         <img src={IllustrationImg} alt="Isllustration for question and asks" />
         <strong>Create live Q&amp;A rooms</strong>
@@ -36,6 +36,6 @@ export function Home() {
           </button>
         </form>
       </main>
-    </>
+    </div>
   );
 }
