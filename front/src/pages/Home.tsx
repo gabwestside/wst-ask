@@ -3,11 +3,13 @@ import ImgLogo from '../assets/images/logo.svg';
 import GoogleIconImg from '../assets/images/google-icon.svg';
 import { useEffect } from 'react';
 
+import '../styles/auth.scss';
+
 export function Home() {
   useEffect(() => {}, []);
 
   return (
-    <div className='page-auth'>
+    <div id='page-auth'>
       <aside>
         <img src={IllustrationImg} alt="Isllustration for question and asks" />
         <strong>Create live Q&amp;A rooms</strong>
@@ -15,26 +17,26 @@ export function Home() {
       </aside>
 
       <main>
-        <div>
+        <div className='main-content'>
           <img src={ImgLogo} alt="Westask" />
-        </div>
-        <button>
-          <img src={GoogleIconImg} alt="Logo do Google" />
-          Create your room with Google
-        </button>
-
-        <div>or enter in a room</div>
-
-        <form>
-          <input
-            type='text'
-            placeholder='Type the room code'
-          />
-
-          <button type='submit'>
-            Enter the room
+          <button>
+            <img src={GoogleIconImg} alt="Logo do Google" />
+            Create your room with Google
           </button>
-        </form>
+
+          <div className="separator">or enter in a room</div>
+
+          <form>
+            <input
+              type='text'
+              placeholder='Type the room code'
+            />
+
+            <button type='submit'>
+              Enter the room
+            </button>
+          </form>
+        </div>
       </main>
     </div>
   );
