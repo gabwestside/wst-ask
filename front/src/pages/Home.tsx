@@ -1,13 +1,24 @@
-import { useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
+import { useAuth } from '../hooks/useAuth';
+
 import { Button } from '../components/Button';
+
 import IllustrationImg from '../assets/images/illustration.svg';
-import ImgLogo from '../assets/images/logo.svg';
 import GoogleIconImg from '../assets/images/google-icon.svg';
+import ImgLogo from '../assets/images/logo.svg';
 
 import '../styles/auth.scss';
 
 export function Home() {
-  useEffect(() => {}, []);
+  const history = useHistory()
+  const { user, signinWithGoogle } = useAuth()
+
+  async function handleCreateRoom() {
+    if (!user) {
+      await signinWithGoogle()
+    }
+    history.push('/rooms/new')
+  }
 
   return (
     <div id='page-auth'>
@@ -20,7 +31,7 @@ export function Home() {
       <main>
         <div className='main-content'>
           <img src={ImgLogo} alt="Westask" />
-          <button className="create-room">
+          <button onClick={handleCreateRoom} className="create-room">
             <img src={GoogleIconImg} alt="Logo do Google" />
             Create your room with Google
           </button>
