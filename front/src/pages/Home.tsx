@@ -1,5 +1,6 @@
 import { FormEvent, useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import { database } from '../services/firebase';
 import { useAuth } from '../hooks/useAuth';
 
 import { Button } from '../components/Button';
@@ -9,7 +10,6 @@ import GoogleIconImg from '../assets/images/google-icon.svg';
 import ImgLogo from '../assets/images/logo.svg';
 
 import '../styles/auth.scss';
-import { database } from '../services/firebase';
 
 export function Home() {
   const history = useHistory()
