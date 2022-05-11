@@ -9,9 +9,15 @@
 
   display: flex;
 
+  transition: filter 0.5s;
+
+  &:hover {
+    border: 2px solid rgb(133, 92, 253);
+  }
+
   div {
     background: #835afd;
-    padding: 0 12px;
+    padding: 10px 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +28,7 @@
     align-self: center;
     flex: 1;
     padding: 0 16px 0 12px;
-    width: 240px;
+    width: 120px;
     font-size: 14px;
     font-weight: 500;
   }
