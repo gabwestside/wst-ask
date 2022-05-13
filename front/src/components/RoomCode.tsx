@@ -1,3 +1,5 @@
+
+//import { useState } from 'react';
 import copyImg from '../assets/images/copy.svg'
 
 import '../styles/roomCode.scss'
@@ -7,6 +9,8 @@ type RoomCodeProps = {
 }
 
 export function RoomCode(props: RoomCodeProps) {
+  //const [click, setClick] = useState('')
+
   function copyRoomCodeToClipboard() {
     navigator.clipboard.writeText(props.code);
   }
