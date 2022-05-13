@@ -2,25 +2,20 @@
   height: 40px;
   border-radius: 8px;
   overflow: hidden;
-
+  
   background: #FFF;
   border: 1px solid #835afd;
   cursor: pointer;
-
+  
   display: flex;
-
-  transition: filter 0.5s;
-
-  &:hover {
-    border: 2px solid rgb(133, 92, 253);
-  }
 
   div {
     background: #835afd;
-    padding: 10px 12px;
+    padding: 0 12px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
   }
 
   span {
@@ -28,7 +23,7 @@
     align-self: center;
     flex: 1;
     padding: 0 16px 0 12px;
-    width: 120px;
+    width: 150px;
     font-size: 14px;
     font-weight: 500;
   }

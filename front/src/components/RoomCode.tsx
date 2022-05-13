@@ -2,7 +2,7 @@
 //import { useState } from 'react';
 import copyImg from '../assets/images/copy.svg'
 
-import '../styles/roomCode.scss'
+import '../styles/room-code.scss'
 
 type RoomCodeProps = {
   code: string;
