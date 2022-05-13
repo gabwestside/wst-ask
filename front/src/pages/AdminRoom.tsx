@@ -52,7 +52,10 @@ export function AdminRoom() {
       <header>
         <div className="content">
           <img src={logoImg} alt="letmeask" />
-          <RoomCode code={roomCode}/>
+          <div>
+            <RoomCode code={roomCode}/>
+            <Button isOutlined>Close room</Button>
+          </div>
         </div>
       </header>
 
