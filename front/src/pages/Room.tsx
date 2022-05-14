@@ -65,11 +65,11 @@ export function Room() {
   return (
     <div id="page-room">
       <header>
-        <div 
-          className="content"
-          onClick={() => handleReturnToHome()}
-        >
-          <button className="return">
+        <div className="content">
+          <button
+            className="return"
+            onClick={() => handleReturnToHome()}
+          >
             <img src={logoImg} alt="westsideask"  />
           </button>
           <RoomCode code={roomCode}/>
