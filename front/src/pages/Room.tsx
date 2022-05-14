@@ -96,7 +96,7 @@ export function Room() {
                 <span>{user.name}</span>
               </div>
             ) : (
-            <span>To send a question, <button>log in</button></span>
+            <span>To send a question, <button onClick={() => handleReturnToHome()}>log in</button></span>
             )}
             <Button type='submit' disabled={!user}>Send question</Button>
           </div>
