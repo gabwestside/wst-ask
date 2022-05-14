@@ -10,8 +10,17 @@
       justify-content: space-between;
       align-items: center;
 
-      > img {
-        max-height: 45px;
+      .return {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        background: transparent;
+        cursor: pointer;
+        max-width: 20px;
+
+        > img {
+          max-height: 45px;
+        }
       }
 
       > div {

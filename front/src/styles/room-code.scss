@@ -23,8 +23,15 @@
     align-self: center;
     flex: 1;
     padding: 0 16px 0 12px;
-    width: 150px;
+    max-width: 130px;
     font-size: 14px;
     font-weight: 500;
+    color:  #835afd;
+
+    transition: filter 0.5s;
+  }
+
+  &:hover {
+    filter: brightness(0.9);
   }
 }

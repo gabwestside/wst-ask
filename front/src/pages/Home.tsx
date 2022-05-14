@@ -55,7 +55,7 @@ export function Home() {
 
       <main>
         <div className='main-content'>
-          <img src={ImgLogo} alt="Westask" />
+          <img src={ImgLogo} alt="westsideask" />
           <button onClick={handleCreateRoom} className="create-room">
             <img src={GoogleIconImg} alt="Logo do Google" />
             Create your room with Google
