@@ -35,7 +35,7 @@ export function Question({
       <footer>
         <div className="user-info">
           <img src={author.avatar} alt={author.name} />
-          <span>{user?.name}</span>
+          <span>{author.name}</span>
         </div>
         <div>{children}</div>
       </footer>
