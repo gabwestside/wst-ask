@@ -14,7 +14,7 @@
     <img alt="Letmeask" src=".github/cover.svg" />
 </h1> -->
 
-# 📣 WestsideAsk
+# 📣 Westside Ask
 
 <br>
 
@@ -31,8 +31,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ git clone https://github.com/gabwestside/WestsideAsk.git
-$ cd WestsideAsk
+$ git clone https://github.com/gabwestside/wst-ask.git
+$ cd wst-ask
 ```
 
 Para iniciá-lo, siga os passos abaixo:
